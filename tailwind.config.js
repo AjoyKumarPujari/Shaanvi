@@ -122,11 +122,14 @@ module.exports = {
         800: "#171717",
         900: "#141414",
       },
+      "orange":{
+        5: "#F9B7AC"
+      }
     },
     extend: {
       maxWidth: {
-        maxContent: "1260px",
-        maxContentTab: "650px"
+        xl: "1260px",
+        sm: "650px"
       },
     },
   },

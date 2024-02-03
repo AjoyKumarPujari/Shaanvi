@@ -14,3 +14,12 @@ html, body {
 .entrance_bg{
     background: url("../src/assets/entrancemain.png");
 }
+
+.Restaurant-bg{
+    background: url("../src/assets/Restaurantbg.png");
+}
+
+.Camping-bg{
+    background: url("../src/assets/CampingBg.jpg");
+   
+}

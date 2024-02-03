@@ -1,0 +1,47 @@
+/* Default styles for larger screens */
+.RestaurantMain {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.RestaurantLeft {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.RestaurantRight {
+    width: 50%;
+    height: 400px;
+    background-color: #f0f0f0; /* Set your desired background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+
+/* Media query for screens up to 768px wide */
+@media (max-width: 800px) {
+    .RestaurantMain {
+        flex-direction: column;
+
+    }
+
+    .RestaurantLeft{
+        width: 100%;
+        height: fit-content;
+        border-radius: 10px;
+    }
+    .RestaurantRight {
+        width: 100%;
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+}

@@ -24,8 +24,8 @@ function Crousal() {
      
       <Carousel.Caption>
 
-      <div className='text-center text-6xl  font-small absolute bottom-60 left-0 right-0 px-2 py-20 '>
-       
+      <div className='text-center text-7xl  font-small absolute bottom-60 left-0 right-0 px-2 py-20 '>
+      
         <HightLightText text={"Unveil the elegance of Saanvi Royal Club"}/>
        
       </div>
@@ -40,7 +40,7 @@ function Crousal() {
       />
      <Carousel.Caption>
 
-<div className='text-center text-6xl  font-small absolute bottom-60 left-0 right-0 px-2 py-20 '>
+<div className='text-center text-7xl  font-small absolute bottom-60 left-0 right-0 px-2 py-20 justify-center items-center'>
  
   <HightLightText text={"Unveil the elegance of Saanvi Royal Club"}/>
  
@@ -56,7 +56,7 @@ function Crousal() {
       />
       <Carousel.Caption>
 
-<div className='text-center text-6xl  font-small absolute bottom-60 left-0 right-0 px-2 py-20 '>
+<div className='text-center text-7xl  font-small absolute bottom-60 left-0 right-0 px-2 py-20 '>
  
   <HightLightText text={"Unveil the elegance of Saanvi Royal Club"}/>
  
