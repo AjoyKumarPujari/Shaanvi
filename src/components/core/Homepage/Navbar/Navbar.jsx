@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Logo from '../../../../assets/Logo.png'
 import "../Navbar/Navbar.css"
 import { GiHamburgerMenu} from "react-icons/gi"
+import {Route, Routes, Link} from "react-router-dom"
 const Navbar = () => {
   const [showMediaIcons, setShowMediaIcons ] = useState(false);
   return (
@@ -9,16 +10,18 @@ const Navbar = () => {
       <div className= { showMediaIcons ? "nav-left mobile-menu-link" :"nav-left" } >
         <ul>
           <li>
-            <a href="#">Home</a>
+          <Link to="/">Home</Link>
+            
           </li>
           <li>
-          <a href="#">About</a>
+          <Link to="/AboutSaanvi">About</Link>
+          
           </li>
           <li>
-          <a href="#">Rooms</a>
+          <Link to="/Rooms">Rooms</Link>
           </li>
           <li>
-          <a href="../">Restaurants</a>
+          <Link to="/Resturent">Rooms</Link>
           </li>
         </ul>
 

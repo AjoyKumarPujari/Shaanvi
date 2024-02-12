@@ -9,9 +9,6 @@ import FeaturesCamping from '../components/core/Homepage/FeaturesCamping'
 import ServicesSightseeing from '../components/core/Homepage/ServicesSightseeing'
 import ServiceFirmStay from '../components/core/Homepage/ServiceFirmStay'
 import Rooms from '../components/core/Homepage/Rooms'
-import Gallery from '../components/core/Homepage/Gallery'
-import ReactImageGallery from '../components/core/Homepage/ReactImageGallery'
-import Footer from '../components/core/Homepage/Footer'
 import FooterMain from '../components/core/Homepage/FooterMain'
  const Home = () => {
   return (
@@ -95,7 +92,7 @@ import FooterMain from '../components/core/Homepage/FooterMain'
           </div>
         </div>
       </div>
-    </div>
+       </div>
 
 
 

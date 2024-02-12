@@ -5,6 +5,7 @@ import Description from '../Description'
 import SightseeingImg from '../../../../assets/SightseeingInfo.JPG'
 import Navbar from '../Navbar/Navbar'
 import "../../Homepage/Sightseeing/Sightseeing.css"
+import FooterMain from '../FooterMain'
 function Sightseeing() {
   return (
     <div>
@@ -41,7 +42,7 @@ function Sightseeing() {
         </div>
     </div>
     </div>
-   
+    <FooterMain/>
     </div>
   )
 }

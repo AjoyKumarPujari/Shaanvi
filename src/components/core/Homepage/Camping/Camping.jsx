@@ -6,6 +6,7 @@ import Description from '../Description'
 import Campingimage from '../../../../assets/Camping11.JPG'
 import Navbar from '../Navbar/Navbar'
 import "../../Homepage/Camping/Camping.css"
+import FooterMain from '../FooterMain'
 const Camping = () => {
   return (
     <div>
@@ -43,6 +44,7 @@ const Camping = () => {
         </div>
     </div>
     </div>
+    <FooterMain/>
     </div>
   )
 }

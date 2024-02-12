@@ -6,7 +6,7 @@ import Description from './Description'
 const AboutUs = () => {
   return (
     <div className='AboutUs w-[100%] h-[700px] flex justify-center items-center'>
-    <div className='AboutUsMain w-[80%] h-[700px] flex gap-20 mt-10 flex justify-center items-center'>
+    <div className='AboutUsMain w-[80%] h-[700px] flex  mt-10 flex justify-center items-center'>
         
        
         <div className='aboutUsLeft xl:w-[35%] h-[550px] bg-pure-greys-5 rounded-lg shadow-sm '>
@@ -15,7 +15,7 @@ const AboutUs = () => {
         </div>
 
         
-        <div className='aboutUsRight xl:w-[35%] sm:w-[90%] xl:h-[550px] sm:h-[650] bg-pure-greys-5 rounded-lg shadow-sm overflow-auto '>
+        <div className='aboutUsRight xl:w-[35%] sm:w-[90%] xl:h-[550px] sm:h-[550] bg-pure-greys-5 rounded-lg shadow-sm overflow-auto '>
             <Heading text={"Saanvi Royal Club"}/> 
             <SubHeading text={"Welcome to our Resort"}/>
             <Description text={"Located just in the periphery of the famous Pobitora Wildlife Sanctuary, Saanvi Royal Club Resort & Restaurant is the new destination for your vacations, daycations, and your dream moments of life. Just a pleasant 42 km ride from the heart of Guwahati City, Saanvi Royal Club is the perfect place to stay while exploring the dense greenery of Pobitora wildlife Sanctuary."}/>
