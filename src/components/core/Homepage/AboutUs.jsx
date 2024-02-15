@@ -20,7 +20,7 @@ const AboutUs = () => {
             <SubHeading text={"Welcome to our Resort"}/>
             <Description text={"Located just in the periphery of the famous Pobitora Wildlife Sanctuary, Saanvi Royal Club Resort & Restaurant is the new destination for your vacations, daycations, and your dream moments of life. Just a pleasant 42 km ride from the heart of Guwahati City, Saanvi Royal Club is the perfect place to stay while exploring the dense greenery of Pobitora wildlife Sanctuary."}/>
             <p>
-            <Description text={"Home to over 2000 species of migratory birds and reptiles, and the magnificent and famous One-horned rhinoceros. A visit to the sanctuary is certain to leave you spellbound with its rich biodiversity. The resort itself is set amidst the heart of nature, providing you an environment that invigorates your body & soul."}/>
+            {/* <Description text={"Home to over 2000 species of migratory birds and reptiles, and the magnificent and famous One-horned rhinoceros. A visit to the sanctuary is certain to leave you spellbound with its rich biodiversity. The resort itself is set amidst the heart of nature, providing you an environment that invigorates your body & soul."}/> */}
             </p>
         </div>
     
