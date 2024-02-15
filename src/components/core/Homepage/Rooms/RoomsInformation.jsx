@@ -9,9 +9,23 @@ import Description from '../Description'
 import Paragraph from '../Paragraph'
 import FooterMain from '../FooterMain'
 import "../../Homepage/Rooms/RoomsInformation.css"
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 const RoomsInformation = () => {
   return (
+     
     <div>
+    <ScrollToTop />
     <Navbar/>
     <div className='  flex bg-no-repeat bg-center backdrop-blur-md'>
     <div className='RoomsInfoMaindiv w-[100%]  flex flex-row justify-center items-center'>

@@ -79,7 +79,7 @@ import FooterMain from '../components/core/Homepage/FooterMain'
         <div className='row justify-content-center'>
           <div className='col'>
             <div className='Ourservices text-center mt-10'>
-              <SubHeading text={"Gallery"}/>
+              {/* <SubHeading text={"Gallery"}/> */}
             </div>
           </div>
         </div>

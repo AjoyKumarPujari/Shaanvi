@@ -3,6 +3,7 @@ import Navbar from '../Navbar/Navbar'
 import AboutUs from '../AboutUs'
 import FooterMain from '../FooterMain'
 
+
 const AboutSaanvi = () => {
   return (
     <div>
@@ -12,6 +13,7 @@ const AboutSaanvi = () => {
         </div>
        
         <FooterMain/>
+       
     </div>
   )
 }
