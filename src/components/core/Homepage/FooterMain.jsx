@@ -16,10 +16,9 @@ const FooterMain = () => {
             
             <FooterContainer>
                 <Row>
-                    <Column>
-                       
+                    <Column> 
                         <div className='flex justify-center items-center '>
-                            <div className='w-[max] h-[max] flex justify-center items-center '>
+                            <div className='w-[max] h-[max]  '>
                                 <img
                                     src={Logo}
                                     alt=""
@@ -38,18 +37,7 @@ const FooterMain = () => {
                         </div>
                     </Column>
                   
-                    {/* <Column>
-                        <Heading>About Us</Heading>
-                        <FooterLink href="#">
-                            Aim
-                        </FooterLink>
-                        <FooterLink href="#">
-                            Vision
-                        </FooterLink>
-                        <FooterLink href="#">
-                            Testimonials
-                        </FooterLink>
-                    </Column> */}
+                    
                     <Column>
                        
                     <Heading>Usefull Links </Heading>
