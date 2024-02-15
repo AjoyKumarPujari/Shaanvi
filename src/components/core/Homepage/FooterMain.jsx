@@ -17,13 +17,7 @@ const FooterMain = () => {
             <FooterContainer>
                 <Row>
                     <Column>
-                        <div>
-                            <div className='w-[max] h-[max] flex justify-center txt-richblack-700 items-center '>
-                            <div className='text-white'>
-                                <SubHeading text={""}/>
-                            </div>
-                            </div>
-                        </div>
+                       
                         <div className='flex justify-center items-center '>
                             <div className='w-[max] h-[max] flex justify-center items-center '>
                                 <img
