@@ -27,12 +27,12 @@ function Crousal() {
      
       <Carousel.Caption>
 
-<div className='text-center text-7xl  font-small absolute bottom-60 left-0 right-0 px-2 py-20 '>
-      
-  <CrousalSubheadingz text={"Unveil the elegance of "}/>
-  <CrousalHeading text={"Saanvi Royal Club"}/>
-       
-</div>
+    <div className='text-center text-7xl  font-small absolute bottom-60 left-0 right-0 px-2 py-20 flex  justify-center items-center'>
+          
+      <CrousalSubheadingz text={"Unveil the elegance of "}/>
+      <CrousalHeading text={"Saanvi Royal Club"}/>
+          
+    </div>
         
       </Carousel.Caption>
     </Carousel.Item>
