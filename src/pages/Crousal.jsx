@@ -26,14 +26,9 @@ function Crousal() {
       />
      
       <Carousel.Caption>
-
-    <div className=' text-3xl  font-small absolute bottom-60 mt-100 left-0 right-0 px-2 py-20 '>
-          
-      
-      <CrousalHeading text={"Saanvi Royal Club"}/>
-          
-    </div>
-        
+      <div className=' text-3xl  absolute bottom-60 mt-100 left-0 right-0 px-2 py-20' id="responsiveText">       
+        <CrousalHeading text={"Saanvi Royal Club"}/>
+      </div>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
@@ -42,16 +37,11 @@ function Crousal() {
       src={Image2}
       alt="Second Slide"
       />
-     <Carousel.Caption>
-
-     <div className=' text-5xl  font-small absolute bottom-60 mt-100 left-0 right-0 px-2 py-20 '>
-          
-      
-          <CrousalSubheadingz text={"Unveil the elegance of Nature"}/>
-              
-        </div>
-  
-</Carousel.Caption>
+      <Carousel.Caption>
+      <div className=' text-3xl absolute bottom-60 mt-100 left-0 right-0 px-2 py-20' id="responsiveText">
+      <CrousalHeading text={"Unveil the elegance of Nature"}/>
+      </div>
+      </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
     <img style={{height:'90vh'}}
@@ -60,15 +50,10 @@ function Crousal() {
       alt="Third Slide"
       />
       <Carousel.Caption>
-
-      <div className=' text-5xl  font-small absolute bottom-60 mt-100 left-0 right-0 px-2 py-20 '>
-          
-      
-          <CrousalSubheadingz text={"Where Paradise meets Luxary"}/>
-              
+        <div className=' text-3xl   absolute bottom-60 mt-100 left-0 right-0 px-2 py-20 'id="responsiveText">
+          <CrousalHeading text={"Where Paradise meets Luxury"}/>
         </div>
-  
-</Carousel.Caption>
+      </Carousel.Caption>
     </Carousel.Item>
     </Carousel>
   </div> 
