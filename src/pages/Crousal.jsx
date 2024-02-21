@@ -27,9 +27,9 @@ function Crousal() {
      
       <Carousel.Caption>
 
-    <div className='text-center text-7xl  font-small absolute bottom-60 left-0 right-0 px-2 py-20 '>
+    <div className=' text-5xl  font-small absolute bottom-60 mt-100 left-0 right-0 px-2 py-20 '>
           
-      <CrousalSubheadingz text={"Unveil the elegance of "}/>
+      
       <CrousalHeading text={"Saanvi Royal Club"}/>
           
     </div>
@@ -44,12 +44,12 @@ function Crousal() {
       />
      <Carousel.Caption>
 
-<div className='text-center text-7xl  font-small absolute bottom-60 left-0 right-0 px-2 py-20 '>
- 
-  <CrousalSubheadingz text={"Unveil the elegance of "}/>
-  <CrousalHeading text={"Saanvi Royal Club"}/>
- 
-</div>
+     <div className=' text-5xl  font-small absolute bottom-60 mt-100 left-0 right-0 px-2 py-20 '>
+          
+      
+          <CrousalSubheadingz text={"Unveil the elegance of Nature"}/>
+              
+        </div>
   
 </Carousel.Caption>
     </Carousel.Item>
@@ -61,11 +61,12 @@ function Crousal() {
       />
       <Carousel.Caption>
 
-<div className='text-center text-7xl  font-small absolute bottom-60 left-0 right-0 px-2 py-20 '>
-  <CrousalSubheadingz text={"Unveil the elegance of "}/>
-  <CrousalHeading text={"Saanvi Royal Club"}/>
- 
-</div>
+      <div className=' text-5xl  font-small absolute bottom-60 mt-100 left-0 right-0 px-2 py-20 '>
+          
+      
+          <CrousalSubheadingz text={"Where Paradise meets Luxary"}/>
+              
+        </div>
   
 </Carousel.Caption>
     </Carousel.Item>
