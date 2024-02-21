@@ -27,7 +27,7 @@ function Crousal() {
      
       <Carousel.Caption>
 
-    <div className=' text-5xl  font-small absolute bottom-60 mt-100 left-0 right-0 px-2 py-20 '>
+    <div className=' text-3xl  font-small absolute bottom-60 mt-100 left-0 right-0 px-2 py-20 '>
           
       
       <CrousalHeading text={"Saanvi Royal Club"}/>
