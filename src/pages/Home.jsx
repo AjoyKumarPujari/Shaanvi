@@ -2,7 +2,7 @@ import React from 'react'
 import Crousal from './Crousal'
 import '../../src/components/core/Homepage/mediaquery.css'
 import Navbar from '../components/core/Homepage/Navbar/Navbar'
-import AboutUs from '../components/core/Homepage/AboutUs'
+import AboutUs from '../components/core/Homepage/AboutSaanvi/AboutUs'
 import Features from '../components/core/Homepage/Features'
 import SubHeading from '../components/core/Homepage/SubHeading'
 import FeaturesCamping from '../components/core/Homepage/FeaturesCamping'
@@ -24,7 +24,7 @@ import FooterMain from '../components/core/Homepage/FooterMain'
           </div>
        </div>
        <div className='bg-pure-greys-5 txt-richblack-700 flex flex-col justify-center items-center '>
-          <div className='Ourservices  justify-center items-center mt-10'>
+          <div className='Ourservices mt-10'>
             <SubHeading text={"Our Services"} />
           </div>
 

@@ -1,8 +1,8 @@
 import React from 'react'
-import HightLightText from './HightLightText'
-import Heading from './Heading'
-import SubHeading from './SubHeading'
-import Description from './Description'
+import HightLightText from '../HightLightText'
+import HeadingAboutSaanvi from './HeadingAboutSaanvi'
+import SubHeadingAboutSaanvi from './SubHeadingAboutSaanvi'
+import DescriptionAboutSaanvi from './DescriptionAboutSaanvi'
 const AboutUs = () => {
   return (
     <div className='AboutUs w-[100%] h-[700px] flex justify-center items-center'>
@@ -15,10 +15,10 @@ const AboutUs = () => {
         </div>
 
         
-        <div className='aboutUsRight xl:w-[35%] sm:w-[90%] xl:h-[550px] sm:h-[550] bg-pure-greys-5 rounded-lg shadow-sm overflow-auto '>
-            <Heading text={"Saanvi Royal Club"}/> 
-            <SubHeading text={"Welcome to our Resort"}/>
-            <Description text={"Located just in the periphery of the famous Pobitora Wildlife Sanctuary, Saanvi Royal Club Resort & Restaurant is the new destination for your vacations, daycations, and your dream moments of life. Just a pleasant 42 km ride from the heart of Guwahati City, Saanvi Royal Club is the perfect place to stay while exploring the dense greenery of Pobitora wildlife Sanctuary."}/>
+        <div className='aboutUsRight  xl:w-[35%] sm:w-[90%] xl:h-[550px] sm:h-[550] bg-pure-greys-5 rounded-lg shadow-sm overflow-auto '>
+            <HeadingAboutSaanvi text={"Saanvi Royal Club"}/> 
+            <SubHeadingAboutSaanvi  text={"Welcome to our Resort"}/>
+            <DescriptionAboutSaanvi text={"Located just in the periphery of the famous Pobitora Wildlife Sanctuary, Saanvi Royal Club Resort & Restaurant is the new destination for your vacations, daycations, and your dream moments of life. Just a pleasant 42 km ride from the heart of Guwahati City, Saanvi Royal Club is the perfect place to stay while exploring the dense greenery of Pobitora wildlife Sanctuary."}/>
             <p>
             {/* <Description text={"Home to over 2000 species of migratory birds and reptiles, and the magnificent and famous One-horned rhinoceros. A visit to the sanctuary is certain to leave you spellbound with its rich biodiversity. The resort itself is set amidst the heart of nature, providing you an environment that invigorates your body & soul."}/> */}
             </p>

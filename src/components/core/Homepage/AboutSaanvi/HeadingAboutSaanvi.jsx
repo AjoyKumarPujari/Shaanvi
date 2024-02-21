@@ -1,8 +1,8 @@
 import React from 'react'
 
-const HightLightText = ({text}) => {
+const HeadingAboutSaanvi = ({text}) => {
   return (
-    <div className='headingtext  mt-10 '>
+    <div className='headingtext ml-10 mt-10 '>
     <span className='headingtext  text-2xl  font-small '    >
         {text}
     </span>
@@ -10,4 +10,4 @@ const HightLightText = ({text}) => {
   )
 }
 
-export default HightLightText
+export default HeadingAboutSaanvi

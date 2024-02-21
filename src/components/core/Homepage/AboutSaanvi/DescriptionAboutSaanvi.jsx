@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Description = ({text}) => {
+const DescriptionAboutSaanvi = ({text}) => {
   return (
-    <div className='headingtext mt-10  mr-10 '>
+    <div className='headingtext mt-10 ml-10 mr-10 mb-10'>
     <span className='headingtext  text-l  font-small '    >
         {text}
     </span>
@@ -10,4 +10,4 @@ const Description = ({text}) => {
   )
 }
 
-export default Description
+export default DescriptionAboutSaanvi

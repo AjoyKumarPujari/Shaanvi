@@ -1,8 +1,8 @@
 import React from 'react'
 
-const SubHeading = ({text}) => {
+const SubHeadingAboutSaanvi = ({text}) => {
   return (
-    <div className='headingtext mt-2 '>
+    <div className='headingtext ml-10 mt-2 mr-10 '>
     <span className='headingtext  text-3xl  font-small '    >
         {text}
     </span>
@@ -10,4 +10,4 @@ const SubHeading = ({text}) => {
   )
 }
 
-export default SubHeading
+export default SubHeadingAboutSaanvi
