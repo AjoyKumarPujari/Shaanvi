@@ -5,16 +5,16 @@ import Farm from '../../../assets/farm.png'
 
 const ServiceFirmStay = () => {
   return (
-    <div className='Services w-[350px] h-[400px] bg-white rounded-lg shadow-sm overflow-auto  justify-center items-center '>
+    <div className='Services w-[300px] h-[330px] bg-white rounded-lg shadow-sm overflow-auto  justify-center items-center '>
        
     <div className='flex justify-center items-center'>
-     <div className='w-[100px] h-[100px] mt-20 bg-orange-5 rounded-full flex justify-center items-center '>
+     <div className='w-[80px] h-[80px] mt-20 bg-orange-5 rounded-full flex justify-center items-center '>
          <img
              src={Farm}
              alt=""
              className='shadow-white'
-             height='70px'
-             width='70px'
+             height='60px'
+             width='60px'
          />
      </div>
      </div>
