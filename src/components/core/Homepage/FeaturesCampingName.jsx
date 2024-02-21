@@ -2,8 +2,8 @@ import React from 'react'
 
 const FeaturesCampingName = ({text}) => {
   return (
-    <div className='headingtext  mt-10 '>
-    <span className='headingtext  text-3xl   font-small '    >
+    <div className='headingtext  mt-6 '>
+    <span className='headingtext  text-2xl   font-small '    >
         {text}
     </span>
     </div>
