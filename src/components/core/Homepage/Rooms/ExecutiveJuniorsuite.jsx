@@ -4,7 +4,7 @@ import React from 'react'
 import {FaArrowRight} from "react-icons/fa"
 import RoomsNAme from './RoomsNAme'
 import RoomsDescriptionSort from './RoomsDescriptionSort'
-import Room1 from '../../../../assets/Room1.png'
+import Room1 from '../../../../components/core/Homepage/Rooms/ExecutiveJuniorSuite/Juniorexecutivesuiteroom.jpeg'
 import {Route, Routes, Link} from "react-router-dom"
 const ExecutiveJuniorsuite = () => {
   return (
