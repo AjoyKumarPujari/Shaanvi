@@ -5,7 +5,7 @@ import Food from '../../../assets/camping.png'
 import { Link } from 'react-router-dom'
 const FeaturesCamping = () => {
   return (
-    <div className='Services w-[300px] h-[330px] bg-white rounded-lg shadow-sm overflow-auto  justify-center items-center cursor-pointer'>
+    <div className='Services w-[300px] h-[300px] bg-white rounded-lg shadow-sm overflow-auto  justify-center items-center cursor-pointer'>
        
     <div className='flex justify-center items-center'>
      <div className='w-[80px] h-[80px] mt-10 bg-orange-5 rounded-full flex justify-center items-center '>

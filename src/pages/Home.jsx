@@ -8,8 +8,13 @@ import SubHeading from '../components/core/Homepage/SubHeading'
 import FeaturesCamping from '../components/core/Homepage/FeaturesCamping'
 import ServicesSightseeing from '../components/core/Homepage/ServicesSightseeing'
 import ServiceFirmStay from '../components/core/Homepage/ServiceFirmStay'
-import Rooms from '../components/core/Homepage/Rooms'
+import Rooms from '../components/core/Homepage/Rooms/Rooms'
 import FooterMain from '../components/core/Homepage/FooterMain'
+import ServiceEvents from '../components/core/Homepage/ServiceEvents'
+import RoomsMastersuit from '../components/core/Homepage/Rooms/RoomsMastersuit'
+import RoomsExecutivesuite from '../components/core/Homepage/Rooms/RoomsExecutivesuite'
+import ExecutiveJuniorsuite from '../components/core/Homepage/Rooms/ExecutiveJuniorsuite'
+import StandardroomWB from '../components/core/Homepage/Rooms/StandardroomWB'
  const Home = () => {
   return (
     <div>
@@ -34,6 +39,7 @@ import FooterMain from '../components/core/Homepage/FooterMain'
               <FeaturesCamping className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4' />
               <ServicesSightseeing className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4' />
               <ServiceFirmStay className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4' />
+              <ServiceEvents className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4' />
             </div>
           </div>
       </div>
@@ -49,27 +55,14 @@ import FooterMain from '../components/core/Homepage/FooterMain'
                 <div className='flex flex-wrap gap-7 gap-8 mt-8 justify-center items-center'>
 
                   
-                  <Rooms className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4'/>
-                  <Rooms className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4'/>
-                  <Rooms className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4'/>
-                  
-                </div>
-                <div className='flex flex-wrap gap-7 gap-8 mt-8 justify-center items-center'>
-
-                  
-                  <Rooms className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4'/>
-                  <Rooms className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4'/>
+                  <RoomsMastersuit className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4'/>
+                  <RoomsExecutivesuite className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4'/>
+                  <ExecutiveJuniorsuite className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4'/>
+                  <StandardroomWB className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4'/>
                   <Rooms className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4'/>
                   
                 </div>
-                <div className='flex flex-wrap gap-7 gap-8 mt-8 justify-center items-center'>
-
-                  
-                  <Rooms className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4'/>
-                  <Rooms className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4'/>
-                  <Rooms className='w-full sm:w-1/2 md:w-1/4 lg:w-1/4'/>
-                  
-                </div>
+                
             </div>
        </div>
        

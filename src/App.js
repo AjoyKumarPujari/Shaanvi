@@ -8,9 +8,12 @@ import Camping from "./components/core/Homepage/Camping/Camping";
 import Sightseeing from "./components/core/Homepage/Sightseeing/Sightseeing";
 import FooterMain from "./components/core/Homepage/FooterMain";
 import AboutSaanvi from "./components/core/Homepage/AboutSaanvi/AboutSaanvi";
+import MastersuiteIndormation from "./components/core/Homepage/Rooms/Mastersuite/MastersuiteIndormation";
+import ExecutivesuiteInformation from "./components/core/Homepage/Rooms/ExecutiveSuite/ExecutivesuiteInformation";
+import ExecutiveJuniorSuiteinformation from "./components/core/Homepage/Rooms/ExecutiveJuniorSuite/ExecutiveJuniorSuiteinformation";
+import StandardRoomswb from "./components/core/Homepage/Rooms/StandardRoomsWB/StandardRoomswb";
+import StandardRooms from "./components/core/Homepage/Rooms/StandardRooms/StandardRooms.jsx";
 function App() {
-
-  
   return (
     <div>
       <Routes>
@@ -21,6 +24,12 @@ function App() {
         <Route path="/Sightseeing" element={<Sightseeing/>}/>
         <Route path="/Rooms" element={<Rooms/>}/>
         <Route path="/footer" element={<FooterMain/>}/>
+        <Route path="/mastersuite" element={<MastersuiteIndormation/>}/>
+        <Route path="/executivesuite" element={<ExecutivesuiteInformation/>}/>
+        <Route path="/executivejuniorsuite" element={<ExecutiveJuniorSuiteinformation/>}/>
+        <Route path="/standardroomswb" element={<StandardRoomswb/>}/>
+        <Route path="/standardrooms" element={<StandardRooms/>}/>
+
       </Routes>
     </div>
   );
