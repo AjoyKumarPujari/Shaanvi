@@ -43,7 +43,7 @@ const MastersuiteIndormation = () => {
                         <div className='campingheading mt-10'>
                         <RoomsHeading text={"Master suite"} />               
                         <RoomsParagraph text={"Price : 5000/- ( Complimentary breakfast )"}/>
-                        <RoomsParagraph text={"Our Presidential master suite room is created with extra specious area accommodating two double beds can comfortably sleep up to four individuals, making them an ideal choice for families or groupes of friends travelling together."}/>
+                        <RoomsParagraph text={"Our Presidential Master Suite room is created with extra specious area accommodating two double beds can comfortably sleep up to four individuals, making them an ideal choice for families or groupes of friends travelling together."}/>
                         <RoomsParagraph text={"( Complimentary stay for children aged between 0 to 7 years, Rs. 700 charged for extra mattress )"}/>
                         </div>
                     </div>

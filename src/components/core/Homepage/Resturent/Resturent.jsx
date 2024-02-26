@@ -37,7 +37,7 @@ function Resturent() {
                 </div>
 
                 
-                <div className='RestaurantRight  bg-pure-greys-5 rounded-lg shadow-sm overflow-auto '>
+                <div className='RestaurantRight ps-10  bg-pure-greys-5 rounded-lg shadow-sm overflow-auto '>
                     <Heading text={"Restaurant"}/> 
                     <SubHeading text={"An indulgence fest for your taste buds"}/>
                     <Description text={"We have a multi cuisine well furnished restaurant Savour the bright cheerful atmosphere along with our authentic Assamese and North Eastern Cuisines Whatever cuisine you choose, our chefs will ensure that your taste buds get the indulgence they need With a breathtaking view of the undulating greenery outside, the setting is perfect for a casual chat with your loved ones,topped with savoury food and soulful music, ofcourse Moreover we also have a half opened sitting restaurant for outdoor vibe with pleasant music"}/>

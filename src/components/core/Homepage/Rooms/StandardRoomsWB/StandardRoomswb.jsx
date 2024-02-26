@@ -34,8 +34,7 @@ const StandardRoomswb = () => {
                                     alt=""
                                     className='shadow-white rounded-lg'
                                     height='100%'
-                                    width='100%'
-                                
+                                    width='100%'                             
                                 />
                     </div>
                     <div className='RoomsRight  bg-pure-greys-5 rounded-lg shadow-sm overflow-auto '>
