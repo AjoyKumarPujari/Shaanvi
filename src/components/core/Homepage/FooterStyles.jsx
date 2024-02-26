@@ -25,8 +25,8 @@ export const FooterContainer = styled.div`
 export const Column = styled.div`
     display: flex;
     flex-direction: column;
-    text-align: left;
-    margin-left: 60px;
+    text-align: center;
+    
 `;
  
 export const Row = styled.div`
@@ -48,7 +48,7 @@ export const Row = styled.div`
 export const FooterLink = styled.a`
     color: #fff;
     margin-bottom: 20px;
-    font-size: 24px;
+    font-size: 18px;
     text-decoration: none;
  
     &:hover {
@@ -58,7 +58,7 @@ export const FooterLink = styled.a`
 `;
  
 export const Heading = styled.p`
-    font-size: 24px;
+    font-size: 20px;
     color: #fff;
     margin-bottom: 40px;
     font-weight: bold;
