@@ -9,8 +9,13 @@ import {
     FooterLink,
     Heading,
 } from "./FooterStyles";
- 
+
+
+
 const FooterMain = () => {
+
+    const shareUrlFB = "https://www.facebook.com/saanviroyalclub"
+    const shareUrlIG = "https://www.instagram.com/saanviroyalclub/"
     return (
         <Box>
             
@@ -41,80 +46,62 @@ const FooterMain = () => {
                     <Column>
                        
                     <Heading>Usefull Links </Heading>
-                        <FooterLink href="#">
+                        <FooterLink href="/Resturent">
                             Resturant 
                         </FooterLink>
-                        <FooterLink href="#">
+                        <FooterLink href="/Camping">
                             Camping 
                         </FooterLink>
-                        <FooterLink href="#">
+                        <FooterLink href="/Sightseeing">
                             SightSeeing
                         </FooterLink>
-                        <FooterLink href="#">
+                        <FooterLink href="/Rooms">
                             FirmStay
                         </FooterLink>
                     </Column>
+
+
                     <Column>
                         <Heading>Contact Us</Heading>
-                        <FooterLink href="#">
-                            Address
+                        <FooterLink >
+                            2.No. Murkata, Mayangn 
+                        </FooterLink>
+                        <FooterLink >
+                           Pin: 782411, Assam
+                        </FooterLink>
+                        <FooterLink >
+                            saanviroyalclub@gmail.com
                         </FooterLink>
                         <FooterLink href="#">
-                           Address
-                        </FooterLink>
-                        <FooterLink href="#">
-                            Email
-                        </FooterLink>
-                        <FooterLink href="#">
-                           Phone no
+                           +916001737012
                         </FooterLink>
                     </Column>
+
                     <Column>
                         <Heading>Social Media</Heading>
-                        <FooterLink href="#">
-                            <i className="fab fa-facebook-f">
-                                <span
-                                    style={{
-                                        marginLeft: "10px",
-                                    }}
-                                >
-                                    Facebook
-                                </span>
-                            </i>
+                        <FooterLink href={shareUrlFB}>
+                            <div style={{
+                               
+                                height: '2vh',
+                                width: '100%',
+                            }}>
+                            <h1 >
+                               Facebook
+                            </h1>
+                            </div>
                         </FooterLink>
-                        <FooterLink href="#">
-                            <i className="fab fa-instagram">
-                                <span
-                                    style={{
-                                        marginLeft: "10px",
-                                    }}
-                                >
-                                    Instagram
-                                </span>
-                            </i>
+                        <FooterLink href={shareUrlIG}>
+                            <div style={{
+                               
+                                height: '2vh',
+                                width: '100%',
+                            }}>
+                            <h1 >
+                               Instagram
+                            </h1>
+                            </div>
                         </FooterLink>
-                        <FooterLink href="#">
-                            <i className="fab fa-twitter">
-                                <span
-                                    style={{
-                                        marginLeft: "10px",
-                                    }}
-                                >
-                                    Twitter
-                                </span>
-                            </i>
-                        </FooterLink>
-                        <FooterLink href="#">
-                            <i className="fab fa-youtube">
-                                <span
-                                    style={{
-                                        marginLeft: "10px",
-                                    }}
-                                >
-                                    Youtube
-                                </span>
-                            </i>
-                        </FooterLink>
+                       
                     </Column>
                 </Row>
             </FooterContainer>

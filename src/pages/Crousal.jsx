@@ -5,7 +5,7 @@ import Paragraph from '../components/core/Homepage/Paragraph';
 import './Crousal.css';
 import CrousalHeading from './CrousalHeading';
 import CrousalSubheadingz from './CrousalSubheadingz';
-import Image1 from '../assets/Image1.png';
+import Image1 from '../assets/Image1.jpg';
 import Image2 from '../assets/Image2.jpg';
 import Image3 from '../assets/Image3.jpg';
 import { useState } from 'react';
