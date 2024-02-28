@@ -42,10 +42,10 @@ const Navbar = () => {
       <div className="nav-right">
         <ul>
             <li>
-            <a href="#">Package</a>
+            <a href="/Sightseeing">Package</a>
             </li>
             <li>
-            <a href="#">Events</a>
+            <a href="/event">Events</a>
             </li>
             <li>
             <a href="#">Gallery</a>

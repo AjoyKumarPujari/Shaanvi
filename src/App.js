@@ -13,6 +13,7 @@ import ExecutivesuiteInformation from "./components/core/Homepage/Rooms/Executiv
 import ExecutiveJuniorSuiteinformation from "./components/core/Homepage/Rooms/ExecutiveJuniorSuite/ExecutiveJuniorSuiteinformation";
 import StandardRoomswb from "./components/core/Homepage/Rooms/StandardRoomsWB/StandardRoomswb";
 import StandardRooms from "./components/core/Homepage/Rooms/StandardRooms/StandardRooms.jsx";
+import Event from "./components/core/Homepage/Events/Event.jsx";
 function App() {
   return (
     <div>
@@ -29,7 +30,7 @@ function App() {
         <Route path="/executivejuniorsuite" element={<ExecutiveJuniorSuiteinformation/>}/>
         <Route path="/standardroomswb" element={<StandardRoomswb/>}/>
         <Route path="/standardrooms" element={<StandardRooms/>}/>
-
+        <Route path="/event" element={<Event/>}/>
       </Routes>
     </div>
   );

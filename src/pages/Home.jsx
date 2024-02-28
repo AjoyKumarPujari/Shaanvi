@@ -15,6 +15,7 @@ import RoomsMastersuit from '../components/core/Homepage/Rooms/RoomsMastersuit'
 import RoomsExecutivesuite from '../components/core/Homepage/Rooms/RoomsExecutivesuite'
 import ExecutiveJuniorsuite from '../components/core/Homepage/Rooms/ExecutiveJuniorsuite'
 import StandardroomWB from '../components/core/Homepage/Rooms/StandardroomWB'
+import Testimonials from '../components/core/Homepage/Testimonales/Testimonals'
  const Home = () => {
   return (
     <div>
@@ -67,6 +68,30 @@ import StandardroomWB from '../components/core/Homepage/Rooms/StandardroomWB'
        </div>
        
        { /*Section 4*/}
+
+       <div className='bg-pure-greys-5 txt-richblack-700 flex flex-col justify-center items-center '>
+              <div className='Ourservices flex flex-wrap justify-center items-center mt-10'>
+                <SubHeading text={"Testimonials"}/>
+              </div> 
+              
+              <div className='FeaturesDetails flex flex-col justify-center items-center gap-5 mx-auto'>
+                <div className='flex flex-wrap gap-7 gap-8  justify-center items-center'>
+
+                  
+                  <Testimonials/>
+                  
+                </div>
+                
+            </div>
+       </div>
+
+
+
+
+
+
+
+       {/*Section 5*/}
        <div className='bg-pure-greys-5 txt-richblack-700'>
       <div className='container-fluid bg-pure-greys-5 txt-richblack-700' style={{ overflowX: 'auto' }}>
         <div className='row justify-content-center'>

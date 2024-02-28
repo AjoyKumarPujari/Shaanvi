@@ -21,7 +21,7 @@ const ServiceEvents = () => {
      </div>
      </div>
      <div className='flex justify-center items-center '>
-     <Link to="/#"><FeaturesCampingName text={"Events"}/> </Link>
+     <Link to="/event"><FeaturesCampingName text={"Events"}/> </Link>
      </div>
      <div>
          <p>

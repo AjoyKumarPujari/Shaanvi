@@ -6,10 +6,21 @@ import SightseeingImg from '../../../../assets/SightseeingInfo.JPG'
 import Navbar from '../Navbar/Navbar'
 import "../../Homepage/Sightseeing/Sightseeing.css"
 import FooterMain from '../FooterMain'
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+function ScrollToTop() {
+  const { pathname } = useLocation();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 function Sightseeing() {
   return (
     <div>
+      <ScrollToTop/>
     <Navbar/>
     <div className='homepage_bg  flex bg-no-repeat bg-center backdrop-blur-md'>
     <div className='Sightseeing w-[100%]  flex flex-row justify-center items-center'>

@@ -7,9 +7,21 @@ import Campingimage from '../../../../assets/Camping11.JPG'
 import Navbar from '../Navbar/Navbar'
 import "../../Homepage/Camping/Camping.css"
 import FooterMain from '../FooterMain'
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 const Camping = () => {
   return (
     <div>
+    <ScrollToTop/>
     <Navbar/>
     <div className='Camping-bg  flex bg-no-repeat  backdrop-blur-md'>
     <div className='CampingInfoMaindiv w-[100%]  flex flex-row justify-center items-center'>
